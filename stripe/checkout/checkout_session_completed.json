@@ -1,0 +1,80 @@
+{
+  "id": "evt_000000000000000000000000",
+  "object": "event",
+  "api_version": "2019-03-14",
+  "created": 1682717526,
+  "data": {
+    "object": {
+      "id": "cs_test_000000000000000000000000",
+      "object": "checkout.session",
+      "after_expiration": null,
+      "allow_promotion_codes": null,
+      "amount_subtotal": null,
+      "amount_total": null,
+      "automatic_tax": {
+        "enabled": false,
+        "status": null
+      },
+      "billing_address_collection": null,
+      "cancel_url": "https://example.com/cancel",
+      "client_reference_id": null,
+      "consent": null,
+      "consent_collection": null,
+      "created": 1682717526,
+      "currency": null,
+      "currency_conversion": null,
+      "custom_fields": [],
+      "custom_text": {
+        "shipping_address": null,
+        "submit": null
+      },
+      "customer": null,
+      "customer_creation": null,
+      "customer_details": {
+        "address": null,
+        "email": "example@example.com",
+        "name": null,
+        "phone": null,
+        "tax_exempt": "none",
+        "tax_ids": null
+      },
+      "customer_email": null,
+      "expires_at": 1682724493,
+      "invoice": null,
+      "invoice_creation": null,
+      "livemode": false,
+      "locale": null,
+      "metadata": {},
+      "mode": "payment",
+      "payment_intent": "pi_000000000000000000000000",
+      "payment_link": null,
+      "payment_method_collection": null,
+      "payment_method_options": {},
+      "payment_method_types": ["card"],
+      "payment_status": "unpaid",
+      "phone_number_collection": {
+        "enabled": false
+      },
+      "recovered_from": null,
+      "redaction": null,
+      "setup_intent": null,
+      "shipping_address_collection": null,
+      "shipping_cost": null,
+      "shipping_details": null,
+      "shipping_options": [],
+      "status": "open",
+      "submit_type": null,
+      "subscription": null,
+      "success_url": "https://example.com/success",
+      "total_details": null,
+      "url": null
+    }
+  },
+  "livemode": false,
+  "pending_webhooks": 1,
+  "request": {
+    "id": null,
+    "idempotency_key": null
+  },
+  "type": "checkout.session.completed"
+}

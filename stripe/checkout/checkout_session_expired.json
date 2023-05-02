@@ -1,0 +1,49 @@
+{
+  "id": "evt_000000000000000000000000",
+  "object": "event",
+  "api_version": "2020-08-27",
+  "created": 1628580009,
+  "data": {
+    "object": {
+      "id": "cs_test_000000000000000000000000",
+      "object": "checkout.session",
+      "allow_promotion_codes": null,
+      "amount_subtotal": 0,
+      "amount_total": 0,
+      "billing_address_collection": null,
+      "cancel_url": "https://example.com/cancel",
+      "client_reference_id": null,
+      "currency": "usd",
+      "customer": null,
+      "customer_details": null,
+      "customer_email": null,
+      "livemode": false,
+      "locale": null,
+      "metadata": {},
+      "mode": "payment",
+      "payment_intent": "pi_000000000000000000000000",
+      "payment_method_options": {
+        "card": {
+          "installments": null,
+          "network": null,
+          "request_three_d_secure": "automatic"
+        }
+      },
+      "payment_method_types": ["card"],
+      "payment_status": "unpaid",
+      "setup_intent": null,
+      "shipping": null,
+      "shipping_address_collection": null,
+      "submit_type": null,
+      "subscription": null,
+      "success_url": "https://example.com/success"
+    }
+  },
+  "livemode": false,
+  "pending_webhooks": 1,
+  "request": {
+    "id": "req_000000000000000000000000",
+    "idempotency_key": null
+  },
+  "type": "checkout.session.expired"
+}
